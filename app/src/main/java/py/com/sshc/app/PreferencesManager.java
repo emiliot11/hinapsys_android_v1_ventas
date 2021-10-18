@@ -34,7 +34,7 @@ public class PreferencesManager {
     }
 
     public String getServidorConServicio(){
-        String WebServerName = "/sshc_web_server_war";
+        String WebServerName = "/hinapsys_web_api_v1";
 
 
         return getServidor() + WebServerName;
