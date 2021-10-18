@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="py.com.sshc.app.EncuestaActivity">
+    <item android:id="@+id/action_encuenta_guardar" android:title="GUARDAR"
+        android:orderInCategory="100" android:showAsAction="ifRoom" />
+</menu>

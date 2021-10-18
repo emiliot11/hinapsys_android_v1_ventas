@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SSHC</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_test">Pruebas</string>
+    <string name="title_activity_pedidos">Pedidos</string>
+    <string name="title_activity_cotizacion">Cotizacion</string>
+    <string name="title_activity_clientes">Clientes</string>
+    <string name="title_activity_creditos">Creditos</string>
+    <string name="title_action_settings">Codigo</string>
+    <string name="codigo">Código</string>
+    <string name="descripcion">Descripción</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pref_general">Configuración</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sucursal">Sucursales</string>
+    <string name="title_pedidos_1">Cliente</string>
+    <string name="title_activity_pedidos_articulo">Detalle del Pedido</string>
+    <string name="title_activity_pedidos_articulo_detail">Nuevo Ítem</string>
+    <string name="title_activity_articulo_consulta">Consulta de Articulos</string>
+    <string name="title_activity_clientes_contacto">Registro CRM</string>
+    <string name="title_activity_stock">Consulta de Stock</string>
+    <string name="title_activity_encuesta">Encuestas</string>
+    <string name="title_activity_login">Credenciales</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar</string>
+    <string name="action_sign_in_short">Iniciar</string>
+    <string name="welcome">"Bienvenido !"</string>
+    <string name="invalid_username">Usuario invalido</string>
+    <string name="invalid_password">Contraseña debe ser mayor a 5 carácteres</string>
+    <string name="login_failed">"Sesion fallida"</string>
+    <string name="google_maps_api_key">AIzaSyDpUTCZ-d1jZ4bPeoE0Kq0_FtAmsA3X0bI</string>
+    <string name="action_registrar">Registrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="numero_documento">Numero</string>
+
+</resources>

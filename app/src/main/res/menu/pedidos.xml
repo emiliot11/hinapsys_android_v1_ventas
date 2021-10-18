@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="py.com.sshc.app.PedidosActivity" >
+    <item android:id="@+id/action_settings_pedidos_guardar"
+        android:title="GUARDAR"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="py.com.sshc.app">
+
+    <permission android:name="android.permission.ACCESS_FINE_LOCATION" android:protectionLevel="dangerous"/>
+    <permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:protectionLevel="dangerous"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.example.mapdemo.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login">
+        </activity>
+        <!-- android:uiOptions="splitActionBarWhenNarrow" -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PedidosActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_pedidos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".CotizacionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_cotizacion"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".ClientesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_clientes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+        </activity>
+        <activity
+            android:name=".CreditosActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_creditos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+        </activity>
+        <activity
+            android:name=".PrefGeneralActivity"
+            android:label="@string/title_activity_pref_general"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+        </activity>
+        <activity
+            android:name=".SucursalActivity"
+            android:label="@string/title_activity_sucursal"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+        </activity>
+        <activity
+            android:name=".PedidosArticuloActivity"
+            android:label="@string/title_activity_pedidos_articulo"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+        </activity>
+        <activity
+            android:name=".PedidosArticuloDetailActivity"
+            android:label="@string/title_activity_pedidos_articulo_detail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustResize">
+        </activity>
+        <activity
+            android:name=".ArticuloConsultaActivity"
+            android:label="@string/title_activity_articulo_consulta"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+        </activity>
+        <activity
+            android:name=".ClientesContactoActivity"
+            android:label="@string/title_activity_clientes_contacto"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+        </activity>
+        <activity
+            android:name=".StockActivity"
+            android:label="@string/title_activity_stock"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+        </activity>
+        <activity
+            android:name=".EncuestaActivity"
+            android:label="@string/title_activity_encuesta"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustPan">
+        </activity>
+
+        <activity
+            android:name=".MapaActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeMapa"
+            >
+        </activity>
+
+        <uses-library android:required="true" android:name="com.google.android.maps" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_api_key" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="py.com.sshc.app.PedidosArticuloDetailActivity">
+
+    <item android:id="@+id/action_pedidos_articulo_insertar"
+        android:title="INSERTAR"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="DATOS DE CONEXION">
+
+        <EditTextPreference
+            android:key="url"
+            android:title="Servidor"
+            >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="puerto"
+            android:title="Puerto"
+            android:numeric="integer"
+            >
+        </EditTextPreference>
+        <CheckBoxPreference
+           android:key="usarssl"
+            android:title="Usar SSL">
+            </CheckBoxPreference>
+
+        <EditTextPreference
+            android:key="usuario"
+            android:title="Usuario">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="clave"
+            android:title="Clave"
+            android:password="true"
+            >
+        </EditTextPreference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

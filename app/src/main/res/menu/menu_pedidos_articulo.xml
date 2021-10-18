@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="py.com.sshc.app.PedidosArticuloActivity">
+    <item android:id="@+id/action_pedidos_articulo_guardar" android:title="GUARDAR"
+        android:orderInCategory="100" android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_pedidos_articulo_agregar" android:title="AGREGAR"
+        android:orderInCategory="200" android:showAsAction="ifRoom" />
+
+</menu>

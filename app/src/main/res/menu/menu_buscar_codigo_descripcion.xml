@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="py.com.sshc.app.ClientesActivity" >
+
+    <item android:id="@+id/action_encontrar_codigo_descripcion"
+        android:title="@string/title_action_settings"
+        android:orderInCategory="100"
+        android:showAsAction = "always"
+        android:actionLayout="@layout/accionbar_buscar_codigo_descripcion"
+
+        />
+
+</menu>
