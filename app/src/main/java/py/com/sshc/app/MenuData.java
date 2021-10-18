@@ -25,12 +25,12 @@ public class MenuData {
 
     static {
         // Add 3 sample items.
-        addItem(new DummyItem("1", "01 - COTIZADOR"));
-        addItem(new DummyItem("2", "02 - PEDIDOS"));
-        addItem(new DummyItem("3", "03 - CRM"));
-        addItem(new DummyItem("4", "04 - ENCUESTAS"));
-        addItem(new DummyItem("5", "05 - CONSULTA DE STOCK"));
-        addItem(new DummyItem("6", "06 - GEOTAG DE DOCUMENTOS"));
+        //addItem(new DummyItem("1", "01 - COTIZADOR"));
+        addItem(new DummyItem("2", "01 - PEDIDOS"));
+        addItem(new DummyItem("5", "02 - CONSULTA DE STOCK"));
+        addItem(new DummyItem("3", "03 - REGISTRO CRM"));
+        addItem(new DummyItem("4", "03 - ENCUESTAS"));
+        //addItem(new DummyItem("6", "06 - GEOTAG DE DOCUMENTOS"));
     }
 
     private static void addItem(DummyItem item) {
